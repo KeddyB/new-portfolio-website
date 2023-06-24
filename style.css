@@ -108,7 +108,8 @@ span{
    background: transparent;
    border-radius: 4rem;
    box-shadow: 0 0 1rem var(--main-color);
-   color: var(--main-color);
+   background-color: var(--main-color);
+   color: var(--bg-color);
    font-size: 1.2rem;
    font-weight: 600;
 }

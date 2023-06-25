@@ -224,3 +224,16 @@ span{
    font-size: 1.6rem;
    margin: .3rem;
 }
+.portfolio-layer a{
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   width: 5rem;
+   height: 5rem;
+   background: var(--text-color);
+   border-radius: 50%;
+}
+.portfolio-layer a i{
+   font-size: 2rem;
+   color: var(--main-color);
+}

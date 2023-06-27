@@ -202,6 +202,10 @@ span{
 }
 .portfolio-box img{
    width: 100%;
+   transition: .5s ease;
+}
+.portfolio-box img:hover{
+   transform: scale(1.1);
 }
 .portfolio-box .portfolio-layer{
    position: absolute;
@@ -216,6 +220,11 @@ span{
    flex-direction: column;
    text-align: center;
    padding: 0 4rem;
+   transform: translateY(100%);
+   transition: .5s ease;
+}
+.portfolio-box .portfolio-layer:hover{
+   transform: translateY(100%);
 }
 .portfolio-layer h4{
    font-size: 3rem;
@@ -235,5 +244,5 @@ span{
 }
 .portfolio-layer a i{
    font-size: 2rem;
-   color: var(--main-color);
+   color: var(--bg-color);
 }

@@ -257,8 +257,8 @@ span{
 }
 .contact form .input-box{
    display: flex;
-   justify-content: center;
    flex-wrap: wrap;
+   justify-content: space-between;
 }
 
 .contact form .input-box input,
@@ -272,7 +272,7 @@ span{
    margin: 1rem 0;
 }
  .contact form .input-box input{
-   width: 30%;
+   width: 49%;
 }
 .contact form textarea{
    resize: none;

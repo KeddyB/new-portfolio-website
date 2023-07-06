@@ -127,9 +127,7 @@ span{
    gap: 2rem;
    background-color: var(--second-bg-color);
 }
-.about-img img{
-   width: 35vw;
-}
+
 .heading{
    text-align: center;
    font-size: 4.5rem;
@@ -307,4 +305,22 @@ span{
 .footer-iconTop a i{
    font-size: 2.4rem;
    color: var(--second-bg-color);
+}
+
+/* responsive displays */
+@media (max-width: 1200px){
+   html{
+      font-size: 55%;
+   }
+}
+@media (max-width: 991px){
+   .header{
+      padding: 2rem 5%;
+   }
+   section{
+         padding: 10rem 5% 2rem;;
+   }
+   .footer{
+      padding: 2rem 5%;
+   }
 }

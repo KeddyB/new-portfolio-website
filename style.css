@@ -68,6 +68,9 @@ section{
    justify-content: center;
    align-items: center;
 }
+.home-img img{
+   width: 30vw;
+}
 .home-content h3{
    font-size: 3.2rem;
    font-weight: 700;
@@ -126,7 +129,9 @@ span{
    gap: 2rem;
    background-color: var(--second-bg-color);
 }
-
+.about-img img{
+   width: 30vw;
+}
 .heading{
    text-align: center;
    font-size: 4.5rem;

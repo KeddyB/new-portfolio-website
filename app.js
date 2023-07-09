@@ -50,4 +50,4 @@ ScrollReveal({
 })
 
 ScrollReveal().reveal('.home-content, .heading', {origin: 'left'})
-ScrollReveal().reveal('.home-img, .services, .portfolio-box, .contact form', {origin: 'right'})
+ScrollReveal().reveal('.home-img, .services, .portfolio-box, .contact form, .about-img img', {origin: 'right'})

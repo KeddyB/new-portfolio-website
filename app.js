@@ -51,3 +51,12 @@ ScrollReveal({
 
 ScrollReveal().reveal('.home-content, .heading', {origin: 'left'})
 ScrollReveal().reveal('.home-img, .services, .portfolio-box, .contact form, .about-img img', {origin: 'right'})
+
+// typed js
+const typed = new Typed('.multiple-text', {
+   strings: ['FrontEnd Developer', 'Blogger', 'Youtuber'],
+   typeSpeed: 100,
+   backSpeed: 100,
+   backDelay: 1000,
+   loop: true
+})

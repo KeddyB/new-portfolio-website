@@ -361,7 +361,7 @@ span{
       position: absolute;
       top: 100%;
       left: 0;
-      width: 50%;
+      width: 100%;
       padding: 1rem 5%;
       background: var(--bg-color);
       border-top: .1rem solid rgba(0, 0, 0, .2);

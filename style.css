@@ -332,10 +332,10 @@ span{
 }
 @media (max-width: 991px){
    .header{
-      padding: 2rem 5%;
+      padding: 2rem 4%;
    }
    section{
-         padding: 10rem 5% 2rem;;
+         padding: 10rem 4% 2rem;;
    }
    .services{
       padding-bottom: 7rem;

@@ -332,10 +332,10 @@ span{
 }
 @media (max-width: 991px){
    .header{
-      padding: 2rem 4%;
+      padding: 2rem 5%;
    }
    section{
-         padding: 10rem 4% 2rem;;
+         padding: 10rem 5% 2rem;;
    }
    .services{
       padding-bottom: 7rem;
@@ -364,6 +364,7 @@ span{
       border-top: .1rem solid rgba(0, 0, 0, .2);
       box-shadow: 0 .5rem 1rem solid rgba(0, 0, 0, .2);
       display: none;
+      overflow-x: hidden;
    }
    .navbar a{
       display: block;
